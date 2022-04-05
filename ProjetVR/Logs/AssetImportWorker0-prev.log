@@ -1,0 +1,1203 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22581) 64bit Core' Language: 'fr' Physical Memory: 16234 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Cyril/Documents/Cours UQAC/RV/Entrainement/ProjetVR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61718
+Successfully changed project path to: C:/Users/Cyril/Documents/Cours UQAC/RV/Entrainement/ProjetVR
+C:/Users/Cyril/Documents/Cours UQAC/RV/Entrainement/ProjetVR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 81.83 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 2.32 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cyril/Documents/Cours UQAC/RV/Entrainement/ProjetVR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001981 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.28 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (599ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (466ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (190ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 67.41 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Cyril\Documents\Cours UQAC\RV\Entrainement\CoursValem\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Cyril\Documents\Cours UQAC\RV\Entrainement\CoursValem\Library\PackageCache\com.unity.xr.oculus@1.11.2\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <68089899e4c84456bfc1de3436accf4a>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1278ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 159.1 MB.
+System memory in use after: 159.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 4174.
+Total: 3.671400 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.149700 ms MarkObjects: 3.168300 ms  DeleteObjects: 0.073200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bab5fe3201a9a66fa8a8aef844ef2c') in 0.059518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013538 seconds.
+  path: Assets/TutorialInfo/Icons/UniversalIcon.png
+  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2469af74232faa562fa73eb837360c84') in 0.105455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008828 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35ee49be89acac0ecfbe3605070bdaa') in 0.008068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006090 seconds.
+  path: Assets/HandPresence.cs
+  artifactKey: Guid(d3ff4143d98004a4bb7cda67ca8373c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HandPresence.cs using Guid(d3ff4143d98004a4bb7cda67ca8373c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c29c38b3e73f67c9b31106808b682c') in 0.007614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 286.889866 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd7ca10b5bf32e886eec457cf073a7') in 0.009899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.273222 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cf95242464b0f1307a08bc2392aaaa') in 0.015025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b3f476ab718b1cf20d183dd9addfe7') in 0.024376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Settings/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b226a0bb157262eadf686f6bb5b5f1f8') in 0.011142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Settings/UniversalRP-MediumQuality.asset
+  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd421f548a6507a11f25ec3578746e9c1') in 0.014060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Settings/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e18c1f933b70f494440bf5e7626866') in 0.011309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.952345 seconds.
+  path: Assets/VR Controllers Models
+  artifactKey: Guid(a910cdc2860452242b79e0bdae8baf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models using Guid(a910cdc2860452242b79e0bdae8baf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38559a9ad77c1c5ba7c242901fef7012') in 0.009265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.360361 seconds.
+  path: Assets/XR
+  artifactKey: Guid(edb8c5a3a4bf05c44b432c0872d11244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(edb8c5a3a4bf05c44b432c0872d11244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13801b8c61fa9d4e61f0c8de7bd11763') in 0.007976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.817347 seconds.
+  path: Assets/Oculus Hands
+  artifactKey: Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands using Guid(fc418d5ed5159f24b9212a11bb97db1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c065ad8d6bac364c72cff94cc9ff35') in 0.008354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.819166 seconds.
+  path: Assets/ExampleAssets
+  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac45704b3e904ca5b19a6457cc79ac') in 0.008002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.669635 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(98621249de8ad1a4f9ccc4a056357e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(98621249de8ad1a4f9ccc4a056357e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f9a46fa3c9327842c601235f27ddd6') in 0.010372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.690618 seconds.
+  path: Assets/XR/Settings/Oculus Settings.asset
+  artifactKey: Guid(20aefc59d8e224e4b8af9186970b8f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Oculus Settings.asset using Guid(20aefc59d8e224e4b8af9186970b8f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b42da2a7ec2f1ebeaa4ed5bd1341bf2') in 0.010210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007263 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif using Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c897cacf8311cf0ac86477642db90c30') in 0.021466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006386 seconds.
+  path: Assets/Scenes/SampleSceneLightingSettings.lighting
+  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a26a52e718306fba651ad1c5ff177c0') in 0.009372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005756 seconds.
+  path: Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat
+  artifactKey: Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Paint1G_WAnim_Material.mat using Guid(55c183dc45153be48a45c4e530127fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b31a38aa84ec72b691f75649480a6fe') in 0.202256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010256 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/Materials
+  artifactKey: Guid(1a988bfe36cea4a17b4b64c2b1ac1183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/Materials using Guid(1a988bfe36cea4a17b4b64c2b1ac1183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2831eafc8b4e6b1fd852cd0b395a56f6') in 0.006437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009505 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_diff.png
+  artifactKey: Guid(a5d2ff6cebc887643ba35bc5a67c95c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_diff.png using Guid(a5d2ff6cebc887643ba35bc5a67c95c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b4132b0b1c4e9d8eefdf9793773495') in 0.029559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021333 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_occ_bake.tga
+  artifactKey: Guid(75071a01a7e49c14981957db73825c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_occ_bake.tga using Guid(75071a01a7e49c14981957db73825c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96195ca739924b3d7c992b84b39c09c9') in 0.043692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029613 seconds.
+  path: Assets/ExampleAssets/Materials/OBS_Mat.mat
+  artifactKey: Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/OBS_Mat.mat using Guid(c438e5c679f1be040a135443008e2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd04199af43445cb2cc288251b06194') in 0.022850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010681 seconds.
+  path: Assets/Presets/Defaults/AudioDecompressOnLoad.preset
+  artifactKey: Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AudioDecompressOnLoad.preset using Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d1cf06e67cef88edace491fed66d7e') in 0.010715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006700 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png
+  artifactKey: Guid(989e468e15d033a4295f9cf51f4d17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/oculus_rifts_controller_right_thumbnail.png using Guid(989e468e15d033a4295f9cf51f4d17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa90a51a8a4e388ae63ceedf2523205') in 0.015111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007942 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif
+  artifactKey: Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Albedo.tif using Guid(2de0d72a6700bd94ea57111b29e246fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca17c87847de2b45ec72b8a088594d95') in 0.014568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006801 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat
+  artifactKey: Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Ridges_Mat.mat using Guid(c05de7c865075334786e6a47a543af72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867bca899d157f77d37634eafef9f1aa') in 0.017137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011255 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(22638a9216f1ebf4cb43273a00879f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_MetallicOcculusionSmoothness.tif using Guid(22638a9216f1ebf4cb43273a00879f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5e22549fe5c432bfb08d408e4a8608') in 0.014314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004807 seconds.
+  path: Assets/Oculus Hands/Animations
+  artifactKey: Guid(e840c6d7927a8794895d56387046aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Animations using Guid(e840c6d7927a8794895d56387046aea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d7a6a40f0b4d62a9c11e3ce707e001') in 0.006692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022399 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw
+  artifactKey: Guid(f23328cbe6fee514b868007ab8567c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw using Guid(f23328cbe6fee514b868007ab8567c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923d17777d5a12891bab10d71798c788') in 0.006685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006569 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat
+  artifactKey: Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Gray_Mat.mat using Guid(4dad30bbe2213eb4d8312f7bb6190866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ab71af590679b32677dc30ed226a51') in 0.021049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007445 seconds.
+  path: Assets/ExampleAssets/Materials/Strap_Mat.mat
+  artifactKey: Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Strap_Mat.mat using Guid(81c1860e7800e5340bf8a54c565ba9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a542234631127ea0c107d7d268657760') in 0.018478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006923 seconds.
+  path: Assets/XR/Loaders/Windows MR Loader.asset
+  artifactKey: Guid(4ae09492f1ce8164a9b5db37365c9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Windows MR Loader.asset using Guid(4ae09492f1ce8164a9b5db37365c9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcb503e44be5f4fc088700ff38ed104') in 0.008821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004069 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right
+  artifactKey: Guid(f662184eb1b15454fab2b1c216d21cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right using Guid(f662184eb1b15454fab2b1c216d21cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5f7d85ef01fbd8cb0aa11ba7714bbc') in 0.006516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028830 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed8573117dfc88bf695745e2de0a4c9') in 0.015170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020788 seconds.
+  path: Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph
+  artifactKey: Guid(5e5eca56e1993e741b41ac9c687d01a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Shaders/Paint1G_WAnim_Shader.shadergraph using Guid(5e5eca56e1993e741b41ac9c687d01a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536a5134fad0d3c599d9bffba7de89b9') in 0.009572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011372 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right
+  artifactKey: Guid(ae9819017886fe34198be4a32749dc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right using Guid(ae9819017886fe34198be4a32749dc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6b3b256fa75772b9f9598fc1328d81') in 0.006499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007325 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif
+  artifactKey: Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintAnimMask.tif using Guid(5e98de278b2ccc14f89b76b85596a3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352b0b02016621bff87d6ed4e1922830') in 0.015106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007426 seconds.
+  path: Assets/Presets/AudioStreaming.preset
+  artifactKey: Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioStreaming.preset using Guid(86bcce7f5575b54408aa0f3a7d321039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9982fbd60bc57b892b2c54d34a0163c0') in 0.006726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004287 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(12ba187ee9dadca41a3a8c12c829986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(12ba187ee9dadca41a3a8c12c829986f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fefbb27848732eb4c0479c88ddb8a2') in 0.007287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017243 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864d2b361520e82158bacbe73f11f05a') in 0.015711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008155 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif
+  artifactKey: Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_MetallicOcculusionRoughness.tif using Guid(ca084ebab0cef7c4ba746cdb442f9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3d4057da4e7e997ea4ccf8fd4cd6d4') in 0.015509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025356 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers
+  artifactKey: Guid(e7c3bff80341b94488a2825de4560557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers using Guid(e7c3bff80341b94488a2825de4560557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d7b78b8fe1110980f56049629ebc3c') in 0.006733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003983 seconds.
+  path: Assets/TutorialInfo/Icons
+  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877c38d75af7f9b160f6df01c0d12ba9') in 0.006848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007016 seconds.
+  path: Assets/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(34f556d724b1bbf4097ca6220db2c581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44cd57fc4feab842adb57b231d71887') in 0.014587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008426 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif using Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfc590a6b00b0149078dbfd987ea86d') in 0.014777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016404 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(201c1f77fe872924a86132486bc97e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_MetallicOcculusionSmoothness.tif using Guid(201c1f77fe872924a86132486bc97e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd47a915baa5d60706576cc304c5363') in 0.014622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005009 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left
+  artifactKey: Guid(0742a1aae98d4354698305cf6ce768a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left using Guid(0742a1aae98d4354698305cf6ce768a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6807cd68ca96208c7ae15399314023') in 0.006910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013322 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Transparent.mat
+  artifactKey: Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Transparent.mat using Guid(8a38b7350df9a9c438e568993a00e5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa88e47cc5ed2495feca365ac46df73c') in 0.018365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007495 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif
+  artifactKey: Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_Albedo.tif using Guid(7140a9bc83a12ea49a081dda89216fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28dd3ef6200fe139f28e59b57610b67') in 0.014431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007141 seconds.
+  path: Assets/Animator/Left Hand Animator.controller
+  artifactKey: Guid(a2d7ffb9b4039604fb2444eb03dc3f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator/Left Hand Animator.controller using Guid(a2d7ffb9b4039604fb2444eb03dc3f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ab7f2e30053f99bd738b5c0417bbaf') in 0.017328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020044 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif
+  artifactKey: Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Albedo.tif using Guid(77583f99dea53b641804bb357092ec83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9255e0559d7d951abdf11e8eafd47d15') in 0.016483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008108 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
+  artifactKey: Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif using Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334eb5160f2e9d204dca1c4debab3244') in 0.015072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011748 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif
+  artifactKey: Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_Albedo.tif using Guid(7b82d12aad56cc445b99fd1cf06a232d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c513c69086fa5dbff25e06e2fc587b6') in 0.014264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053040 seconds.
+  path: Assets/XR/Loaders/Oculus Loader.asset
+  artifactKey: Guid(5a1b92e5e1eb8864badc26bc3cb1c025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Oculus Loader.asset using Guid(5a1b92e5e1eb8864badc26bc3cb1c025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fde76a4f97e1845f523991e8512fd95') in 0.007804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023523 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(7a11105c08b00da4c9c019b3db6764ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(7a11105c08b00da4c9c019b3db6764ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96813ef2c4bc838e9f2cc8da9c7e5b7c') in 0.008468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007366 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a9c3de600e9b06db1da9a0cb6f09d') in 0.017460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027428 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/Materials/external_controller01_col.mat
+  artifactKey: Guid(8a2c36a73f5f44c9b8df148310088323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/Materials/external_controller01_col.mat using Guid(8a2c36a73f5f44c9b8df148310088323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab48b70040c8453f2bb74e9d5bf5603') in 0.020601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007429 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculusriftscontleft.mat
+  artifactKey: Guid(04267dafa4c3044999d11f582052670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculusriftscontleft.mat using Guid(04267dafa4c3044999d11f582052670f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f670db8cb55c0029eb776773cd3676') in 0.020413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010575 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(3fea3ee3411a70a43881159496e5820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(3fea3ee3411a70a43881159496e5820b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe524430685c50119f2f655e8040956a') in 0.010247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012358 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif using Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195a1284a9b901d228e8f6891dc4588c') in 0.015936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008892 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_spec.png
+  artifactKey: Guid(1629d9dbdcc5f62429f53a13c4bce9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_spec.png using Guid(1629d9dbdcc5f62429f53a13c4bce9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c985a3b7892de44ddba19912252ef20') in 0.017110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007793 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1762d013214bf69b5dd047b82b0c63b9') in 0.014716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010370 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_spec.png
+  artifactKey: Guid(61c8b0e4ddab2e1489b0a3daa8bae98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_spec.png using Guid(61c8b0e4ddab2e1489b0a3daa8bae98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb42ced6be18becc3f25b6035f8f8d4d') in 0.017574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012400 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat
+  artifactKey: Guid(2d8107af768e1c54aab35a9245f96fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat using Guid(2d8107af768e1c54aab35a9245f96fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9d810a1b1e4a414a9c9d8095f6b922') in 0.008397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017436 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.mtl
+  artifactKey: Guid(702e982e2d8ca3a41b3002751e3cf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.mtl using Guid(702e982e2d8ca3a41b3002751e3cf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a16de4e0582e70be22308cdfc7c109') in 0.009262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013745 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures
+  artifactKey: Guid(89e046042f818504eac062f4a72593f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures using Guid(89e046042f818504eac062f4a72593f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1c77bb0d840e5037f6b512c8084d0a') in 0.006977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006809 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif
+  artifactKey: Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/PaintLabel.tif using Guid(e5c37ab0c7b37af4f981195d3caaf4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47cbb7f355dfa4d9746b65b5a3424f99') in 0.014710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008186 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif
+  artifactKey: Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/OBS_Normal.tif using Guid(fcce267dfc966b6408dc2ebe0cfb60ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2652586975030c87d32000391e26784a') in 0.015495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013029 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_diff.png
+  artifactKey: Guid(d5b96eb7d89421a45bf46fb1b9b95475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_diff.png using Guid(d5b96eb7d89421a45bf46fb1b9b95475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f8529923ee4830bcc851e68a45523f') in 0.024472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011399 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source
+  artifactKey: Guid(04670900873250f43adeffc458a70bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source using Guid(04670900873250f43adeffc458a70bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e928a422f4ca8c1fac0baa2336b34167') in 0.008221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007034 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40bfc4fcc39bf349e4a23ca7ab6a5a4') in 0.009300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019831 seconds.
+  path: Assets/Presets/Defaults/AlbedoTexture_Default.preset
+  artifactKey: Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AlbedoTexture_Default.preset using Guid(e8537455c6c08bd4e8bf0be3707da685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39f5c6fcb9ea97bf434963b23d33ea7') in 0.010685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012323 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif
+  artifactKey: Guid(c021d051fa0cba84282b4a2577aa85c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Normal.tif using Guid(c021d051fa0cba84282b4a2577aa85c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2a0e6d6cdc3efb04e743ac3a4ef889') in 0.015791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012685 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Textures
+  artifactKey: Guid(34cacfab9546fdb47ad6eb16a8ad4cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Textures using Guid(34cacfab9546fdb47ad6eb16a8ad4cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa3319c9d14b4b07457ce4fabb029e7') in 0.007142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021032 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_spec.png
+  artifactKey: Guid(940969f12bcdb164ea9c7b0238167281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_spec.png using Guid(940969f12bcdb164ea9c7b0238167281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd5c612b7ce334d5605ce4efd2772eb') in 0.019570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013522 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif
+  artifactKey: Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_Normal.tif using Guid(3b0b7c1f4ac9f6b499e27cf84e722ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4e6c99857cfa609e4eb4bf546c6cd8') in 0.014262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015489 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f419129674622345ff944ef16b90372a') in 0.013913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004510 seconds.
+  path: Assets/ExampleAssets/Textures/Metal
+  artifactKey: Guid(c805204817006b648aa2d0cb8f7861d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal using Guid(c805204817006b648aa2d0cb8f7861d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdce704633df4937c4eef91f537e3b6') in 0.006669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016057 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01.psd
+  artifactKey: Guid(39d14cac250f3b34091566fa990ec867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01.psd using Guid(39d14cac250f3b34091566fa990ec867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47b3b1ab3d24acc6cb5ef8838048d67') in 0.018980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025890 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif
+  artifactKey: Guid(b3f247b26e080ca468f1daa963c192ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Albedo.tif using Guid(b3f247b26e080ca468f1daa963c192ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c5f1483531c7b8e8a454ae6dbe5d88') in 0.014776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008639 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_spec.png
+  artifactKey: Guid(309ce0a3103b4d8459a30e849cb1d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_spec.png using Guid(309ce0a3103b4d8459a30e849cb1d013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc23d74faefe2ef13cb42677dad77d99') in 0.016441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011558 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials
+  artifactKey: Guid(2c585de26e6e84703af9128e35b95efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials using Guid(2c585de26e6e84703af9128e35b95efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e413282e7c8d8b24053a081ed687fd5e') in 0.005545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007861 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif
+  artifactKey: Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Albedo.tif using Guid(87ce03bd447ccce48bbff87ac0d8355f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0dfe8d06391703a7363536e0aa0614') in 0.014567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018324 seconds.
+  path: Assets/VR Controllers Models/Default Controllers
+  artifactKey: Guid(021911be2ef74ac4a8f0d9428a2137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Default Controllers using Guid(021911be2ef74ac4a8f0d9428a2137d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04025c2aeaa8af17000617841eea0b59') in 0.007191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013984 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right
+  artifactKey: Guid(3a342d88389b04f4ebdbcf9f2df60415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right using Guid(3a342d88389b04f4ebdbcf9f2df60415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73688cf2d58ced1d7904e80e01f8e5ee') in 0.007472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004828 seconds.
+  path: Assets/ExampleAssets/Textures
+  artifactKey: Guid(1cc500c8cdb999142b9017ebf0cf407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures using Guid(1cc500c8cdb999142b9017ebf0cf407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b531f7d02af65b446e05cf05b409c8') in 0.005237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014216 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif
+  artifactKey: Guid(ac80c335ebd6dde4fa54a82050064545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint1G_Normal.tif using Guid(ac80c335ebd6dde4fa54a82050064545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b737faff31f39940a9256cbbf8fecff') in 0.014771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009649 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cf2864fde43f79dc0d25d585cb8164') in 0.022915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007696 seconds.
+  path: Assets/Scenes/Bowling.unity
+  artifactKey: Guid(eb63b85614d14fc4d891397f3b063bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Bowling.unity using Guid(eb63b85614d14fc4d891397f3b063bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ebb7445746c1622bddfa05415e503f') in 0.009294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009512 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Materials/Vive Controller.mat
+  artifactKey: Guid(0910f96655140ba4e8b16bc71b8e92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Materials/Vive Controller.mat using Guid(0910f96655140ba4e8b16bc71b8e92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9432cd17ae62d06d3dd93c50281cd4c3') in 0.052355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010835 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(ba34513ac8e91c0449d0435e22255469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(ba34513ac8e91c0449d0435e22255469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889044c49e911f8a28c05767f71c386c') in 0.005125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016428 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01.psd
+  artifactKey: Guid(2e8838c7949d4994bbd74a2a87d3e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01.psd using Guid(2e8838c7949d4994bbd74a2a87d3e9c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5893ad80a30ebcf3618d479b6698ed32') in 0.014685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009063 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_spec.png
+  artifactKey: Guid(c7404a12b1ceddd42983e4964ed4833a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_spec.png using Guid(c7404a12b1ceddd42983e4964ed4833a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f26731900fb441ab531e835f0f5244') in 0.012985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006825 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat
+  artifactKey: Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Black_Mat.mat using Guid(e745492728544aa488aa0429b6068e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec41258e50d7b0724bce6a1b02e69ab') in 0.017924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017151 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eaee825fee49737c47450774b31e7c8') in 0.015452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010449 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers
+  artifactKey: Guid(a3520ac18d831c6458c2967951cdc558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers using Guid(a3520ac18d831c6458c2967951cdc558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c9730336d9ccf932db0df2beb7792e') in 0.006821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004221 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Materials
+  artifactKey: Guid(b727f39d515c6094eb74d98acd678d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Materials using Guid(b727f39d515c6094eb74d98acd678d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7055c1af325d50b4caa766d18a14aa') in 0.005263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004151 seconds.
+  path: Assets/XRI/Settings
+  artifactKey: Guid(47c133e0858038c44a848959845f5bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings using Guid(47c133e0858038c44a848959845f5bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd404777aa39b8ea929d1b06f5ce317af') in 0.005377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028399 seconds.
+  path: Assets/ExampleAssets/Materials/PaintLabel_Mat.mat
+  artifactKey: Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintLabel_Mat.mat using Guid(3da4aad06945bbf4baf801c2aacbc01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c36a7279f016c98e6c23d7bc391d33c') in 0.019497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007099 seconds.
+  path: Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif
+  artifactKey: Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Metal/Metal_MetallicSmoothness.tif using Guid(40da0395b61db4448b98bab66d6b549c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e81fa26bdee9feb69fc98217429bb48') in 0.014637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033076 seconds.
+  path: Assets/ExampleAssets/Models
+  artifactKey: Guid(aa97895f3852bd44399ef0893bec4f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models using Guid(aa97895f3852bd44399ef0893bec4f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148bd1374e384877c948124b2b92d031') in 0.006490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008070 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif using Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb55671b8d96876caa842640f08faf3') in 0.015481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007981 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/Valve Index Left.mat
+  artifactKey: Guid(21631b4bc43be87418541fec4e3e355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/Valve Index Left.mat using Guid(21631b4bc43be87418541fec4e3e355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c706d096d067926f2a0ce07b7f9959') in 0.022652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020577 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_spec.png
+  artifactKey: Guid(314d0cdf0550520428e48b85b0ad447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures/valve_controller_knu_1_0_left_spec.png using Guid(314d0cdf0550520428e48b85b0ad447b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530f5eccb38019f10bc70f5931405e77') in 0.017461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008415 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat
+  artifactKey: Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Rough_Mat.mat using Guid(a5aaee4111611af43b5abbff184fe5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4d08b544b44bbbf01fdafd95ff430a') in 0.021415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010636 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_diff.png
+  artifactKey: Guid(f3caf4cf6d83d5f4fb828409233c82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_diff.png using Guid(f3caf4cf6d83d5f4fb828409233c82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5b8ccd7b691bdb094fede235a737e0') in 0.017224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007993 seconds.
+  path: Assets/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/DirectionalLight_Default.preset using Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a078c6ae54eb254be36a9378726b4a') in 0.008743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007345 seconds.
+  path: Assets/Presets/AudioCompressedInMemory.preset
+  artifactKey: Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/AudioCompressedInMemory.preset using Guid(2dd802e4d37c65149922028d3e973832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4de02398cfe62c06251b0f50233ebf') in 0.007524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008835 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_col.png
+  artifactKey: Guid(3250cf1496074bf4db55f2ce2a36bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/external_controller01_col.png using Guid(3250cf1496074bf4db55f2ce2a36bfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f971aae0ee9c8f983968ec9165bf65a') in 0.015002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021670 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer
+  artifactKey: Guid(65ba28c90924bf641b0800d7c3aa08eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer using Guid(65ba28c90924bf641b0800d7c3aa08eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7137f15c106a3d7759073a3679b28249') in 0.007693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019531 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif using Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ddfb63e62d1213c62254721b6977ba') in 0.016231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005220 seconds.
+  path: Assets/TutorialInfo/Scripts
+  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2381cffa6438b17ca19b3c642f224055') in 0.007093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008474 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+  artifactKey: Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif using Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715101e8fc0fafacea1213a8a4796276') in 0.016019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007543 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif
+  artifactKey: Guid(e109905c411b0f84e82eaaf2705ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_Normal.tif using Guid(e109905c411b0f84e82eaaf2705ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff5f95365018b301066b797947fc4a1') in 0.014493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007832 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+  artifactKey: Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif using Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78401adca7c490c5eb59770881e8a2f') in 0.014856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008180 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(888916a5e87c05948b1a97b3c0d42556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_MetallicOcculusionSmoothness.tif using Guid(888916a5e87c05948b1a97b3c0d42556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07028616e69752981944285df8fa39e') in 0.016516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008428 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif
+  artifactKey: Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paint5G_AlbedoSmoothness.tif using Guid(5d25a5cd577a4c54e94fdf9cc6f1a631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46497461ad13ec5bb87076daebb413ec') in 0.016842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005188 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5a30219286eb2a872f2f84d66d9616') in 0.006821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011157 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_spec.png
+  artifactKey: Guid(526d1857a620b494db37a060f3ddee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_spec.png using Guid(526d1857a620b494db37a060f3ddee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bb8bfd545ec2c8ec307da76e0b9ee4') in 0.015910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105479 seconds.
+  path: Assets/ExampleAssets/Textures/Props
+  artifactKey: Guid(abf7b1f1f7dfcba4c9243d4679f56e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props using Guid(abf7b1f1f7dfcba4c9243d4679f56e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61436de758e5477a0f56551fc6f30db0') in 0.006582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004410 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Models
+  artifactKey: Guid(079de9521944dfb4aa74fe78df20102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Models using Guid(079de9521944dfb4aa74fe78df20102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9539dbe20bbe115d6e624dcaf00710') in 0.005744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007864 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif
+  artifactKey: Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Plastic_AlbedoSmoothness.tif using Guid(1f89fed00b6bc904c861ab847a811cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1e2ad70acd46251732a36607f34b62') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008458 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03ee8e47df99957ed6ccb3030558fc2') in 0.015479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008505 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif
+  artifactKey: Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Normal.tif using Guid(09e745bf0b8ff6a4bb5785d14168289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41eafcf91732874fd8161fe048a24a2c') in 0.017188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005184 seconds.
+  path: Assets/Oculus Hands/Materials
+  artifactKey: Guid(439571b1b54225746960ad2b9769efe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Materials using Guid(439571b1b54225746960ad2b9769efe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e78a77da1c9698e8496157814ad896') in 0.005750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011915 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1966229f3d7993f283b578bcf544b58') in 0.006739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008919 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_diff.png
+  artifactKey: Guid(6fcb811bae434ff4983b968cbee325de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source/valve_controller_knu_1_0_left_diff.png using Guid(6fcb811bae434ff4983b968cbee325de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3012bc6dc6f65937297ba56df72895bb') in 0.014056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006970 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat
+  artifactKey: Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Blue_Simple_Mat.mat using Guid(cd71291c91c8cce499cb663b5db9970e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d0adbd293f6d73553ee1adc198f712') in 0.017817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007366 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(935d1c0eb12b4f24999f6429092f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(935d1c0eb12b4f24999f6429092f2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badf4f9cf3efb4ee8da8a8d9c7755bac') in 0.013225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006716 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_White_Mat.mat
+  artifactKey: Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_White_Mat.mat using Guid(6cfe423139c361a459da7ed9831d4b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7270cf5fe7035eb4043b23a71cdca86e') in 0.017150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004490 seconds.
+  path: Assets/ExampleAssets/Shaders
+  artifactKey: Guid(eb6819cbd279a3941a65f1689b2f621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Shaders using Guid(eb6819cbd279a3941a65f1689b2f621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e590aefae26cd28906a7fcc67f064dd5') in 0.008364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010034 seconds.
+  path: Assets/Materials/Shader Graphs_Color Ramp.mat
+  artifactKey: Guid(a84c50f7a9ff3c1439ea76db303d6bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shader Graphs_Color Ramp.mat using Guid(a84c50f7a9ff3c1439ea76db303d6bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb566245e38db0bf0c915155f88942b') in 0.017649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007327 seconds.
+  path: Assets/Presets/NormalTexture.preset
+  artifactKey: Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/NormalTexture.preset using Guid(14a57cf3b9fa1c74b884aa7e0dcf1faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c195482fc53bc4f53f643643f636469') in 0.008935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006288 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials/external_controller01_col.mat
+  artifactKey: Guid(9eeec58b39f3b4218866520db6ad2edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left/Materials/external_controller01_col.mat using Guid(9eeec58b39f3b4218866520db6ad2edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3c2108b6c45c2493801d2c503a223a') in 0.016495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060439 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers
+  artifactKey: Guid(95775c702c08e41428d6aa22f5c10c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers using Guid(95775c702c08e41428d6aa22f5c10c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841b891cc87aca9282b232cde4c12574') in 0.006769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004076 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left
+  artifactKey: Guid(641b2c82d4ca3114dacf81fc597f55fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_left using Guid(641b2c82d4ca3114dacf81fc597f55fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7977a8cebebf09034ae78933f323573') in 0.006344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008010 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_diff.png
+  artifactKey: Guid(ead54d05e5c31864ca6c239f54fe962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/right_diff.png using Guid(ead54d05e5c31864ca6c239f54fe962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24cb599ac5ded21db24b3766d3d9c79') in 0.016968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008093 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
+  artifactKey: Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif using Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f57c3f7f84bfeff6b24ca6b1cf28cad') in 0.019016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008038 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint
+  artifactKey: Guid(661b3094cbb8d57488db75686cf31627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint using Guid(661b3094cbb8d57488db75686cf31627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a1adc19814824498bee86e4fbe978b') in 0.008344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006803 seconds.
+  path: Assets/Presets/UtilityTexture.preset
+  artifactKey: Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/UtilityTexture.preset using Guid(45f7b2e3c78185248b3adbb14429c2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9c1faeeb59b745cafa0ae79c874a42') in 0.009130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007005 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fe53ede3d2ad0e52eb12523c7f5d3d') in 0.014486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008234 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_col.png
+  artifactKey: Guid(3ba801bf08042f74b8bb54c8a4c5c142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/external_controller01_col.png using Guid(3ba801bf08042f74b8bb54c8a4c5c142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7f79ce89e34527900087276ac854df') in 0.013180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013059 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
+  artifactKey: Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif using Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0155f9fc28286a2d28ba97c7187e91cc') in 0.015312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004548 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/Materials
+  artifactKey: Guid(85e069a4a3c734595bd9e4bd05591d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_cv1_controller_right/Materials using Guid(85e069a4a3c734595bd9e4bd05591d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0df8cc469ce223b8c50d01dfe6058b5') in 0.004611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013763 seconds.
+  path: Assets/ExampleAssets/Materials/Stud_Mat.mat
+  artifactKey: Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Stud_Mat.mat using Guid(027cb3d3d7dc79d41ad763e01759de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa2aecd2a25a8d8aaf6cdad1b5a242e') in 0.018355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015417 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light
+  artifactKey: Guid(fa8e348df46f41a40866e1358c46c58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light using Guid(fa8e348df46f41a40866e1358c46c58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f91eb1ac25b4b062ad7c16d1ca059bb') in 0.007121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006509 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/Valve Index Mat Right.mat
+  artifactKey: Guid(abe73698f82111f4bbdfc4065a667235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/Valve Index Mat Right.mat using Guid(abe73698f82111f4bbdfc4065a667235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ebbe2aa1bf0f7d139994ba1e5e4252') in 0.018721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029382 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.json
+  artifactKey: Guid(b928fc438e67ef1438ea878574b6ff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/oculus_rifts_controller_left.json using Guid(b928fc438e67ef1438ea878574b6ff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccea67d9ecaa744e39a2f1162debc960') in 0.006930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011025 seconds.
+  path: Assets/ExampleAssets/Prefabs
+  artifactKey: Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs using Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768324c56d94b4efa7303716f65df392') in 0.006267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022937 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/Materials/right_diff.mat
+  artifactKey: Guid(4c2c0e57ea5934aeeb618a5f71f4de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_right/Materials/right_diff.mat using Guid(4c2c0e57ea5934aeeb618a5f71f4de1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d14f92c735e8c70677923644fab8147') in 0.015461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020699 seconds.
+  path: Assets/ExampleAssets/Textures/Wood
+  artifactKey: Guid(cebb473fb6009324ea0c85fcc4debbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood using Guid(cebb473fb6009324ea0c85fcc4debbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf727b1fc6600b8d1611853dc362319f') in 0.007237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016490 seconds.
+  path: Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_texture.psd
+  artifactKey: Guid(e707a5041c96166428d6aaef3e5c6c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Vive Controllers/Textures/onepointfive_texture.psd using Guid(e707a5041c96166428d6aaef3e5c6c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11686fc9ae4785d986715ad8d207550d') in 0.016922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019635 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRough_MetallicOcculusionSmoothness.tif using Guid(ee7680f1374ab4449b6d5f6b2c2c1936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232cd428ebfb2367aef618616cd2e543') in 0.013797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025210 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_spec.png
+  artifactKey: Guid(96aea92785aced5438e2fa6545eeba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/source/valve_controller_knu_1_0_right_spec.png using Guid(96aea92785aced5438e2fa6545eeba94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f0cff5df1889c71fcd8759aa8aa0ae') in 0.013455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012342 seconds.
+  path: Assets/Presets/Defaults
+  artifactKey: Guid(71ea82b02df99c2439e0dc8e4e1ebc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults using Guid(71ea82b02df99c2439e0dc8e4e1ebc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a56981c996a89ef789297d7a3fb242') in 0.007020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004017 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor
+  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d9a53e681186c8abcd91760b4a6555') in 0.006903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016690 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_diff.png
+  artifactKey: Guid(50a5f1ad87dae8849968cd248276c118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-right/textures/valve_controller_knu_1_0_right_diff.png using Guid(50a5f1ad87dae8849968cd248276c118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34704db2e48a6221e342f6106ffe0389') in 0.012599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020027 seconds.
+  path: Assets/XR/Settings/Windows MR Package Settings.asset
+  artifactKey: Guid(3f2159ceef16f7a429c7ba4b5309e1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/Windows MR Package Settings.asset using Guid(3f2159ceef16f7a429c7ba4b5309e1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c9f6504cd31e263ceaca788024f5da') in 0.009609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007896 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif
+  artifactKey: Guid(4675081b0baf66345adc734388155502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Paint/Paintbrush_Albedo.tif using Guid(4675081b0baf66345adc734388155502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d2564902384411f4f878858f0c8efd') in 0.015366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008655 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+  artifactKey: Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif using Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cce1b1da3ceaef17d90a5513f3032f') in 0.018815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006953 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left
+  artifactKey: Guid(7efd02c2ba2d45e4fb5815abdec5ef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left using Guid(7efd02c2ba2d45e4fb5815abdec5ef6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa57c4233666fd5513f613252bd55b07') in 0.006071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007589 seconds.
+  path: Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat
+  artifactKey: Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Metal_Simple_Mat.mat using Guid(a0427cf339e5891468d5f2b433b2d44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8fef95f5cf1ab691e96a9fc0590164') in 0.016992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007079 seconds.
+  path: Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat
+  artifactKey: Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/Plastic_Yellow_Mat.mat using Guid(bd2d742ee2ce7a740ae0cf992a38be74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a82a5da02497828fc2c902b30e60d5') in 0.016505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005572 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures
+  artifactKey: Guid(157821bc63ffc0140949042ab7a318f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/textures using Guid(157821bc63ffc0140949042ab7a318f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ceb6c52dda13647d24c77e5ed1c28a') in 0.005522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012917 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7c01bc8ed57adf1ede3d700e613d7f') in 0.007437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016637 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic
+  artifactKey: Guid(64d6ecb2a87dd444b85a7ff79b149c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic using Guid(64d6ecb2a87dd444b85a7ff79b149c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e621aad0a46a57612b3f45f8c9e79d') in 0.006944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006873 seconds.
+  path: Assets/ExampleAssets/Materials/PaintBrush_Mat.mat
+  artifactKey: Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PaintBrush_Mat.mat using Guid(539165557a9d3744680bb21164bea45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8432233d9ceec849c9f270325d606') in 0.018066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013479 seconds.
+  path: Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_spec.png
+  artifactKey: Guid(535bb8663160cbd4aa25a675770cce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Oculus Controllers/oculus_rifts_controller_left/left_spec.png using Guid(535bb8663160cbd4aa25a675770cce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466efab6d4cd29439fd97238764ca087') in 0.016414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008523 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+  artifactKey: Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif using Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad6edb0a38e2d06c71b55039ce2ad63') in 0.014488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005338 seconds.
+  path: Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source
+  artifactKey: Guid(49c5ffb63e097c741b39a4cd72440862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Controllers Models/Valve Index Controllers/valve-index-controller-left/source using Guid(49c5ffb63e097c741b39a4cd72440862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb179cc43a98928c0da8712cc11fd84') in 0.005564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014578 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif
+  artifactKey: Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/PlasticRidges_Albedo.tif using Guid(ecb23393a0d1b424a82fff68a4c00a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43e6930eb1a08bb4420d322c7229155') in 0.015006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005144 seconds.
+  path: Assets/XRI/Settings/Resources
+  artifactKey: Guid(9ba023331170ade4fae20198e8c64f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources using Guid(9ba023331170ade4fae20198e8c64f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274f25142297fcf4d4b79b0703dc6396') in 0.007443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004144 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete
+  artifactKey: Guid(47c259102c9296845a85c9d7207b82f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete using Guid(47c259102c9296845a85c9d7207b82f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2054d91eabfe931dd284a4ac6de47fa7') in 0.007070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004426 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall
+  artifactKey: Guid(0389f6104fd857940908a1705ab749f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall using Guid(0389f6104fd857940908a1705ab749f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e3b6a95a5747f99fc7aa93e13e6b49') in 0.007215 seconds 
