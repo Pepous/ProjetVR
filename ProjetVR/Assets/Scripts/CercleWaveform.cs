@@ -51,7 +51,7 @@ public class CercleWaveform : MonoBehaviour
         {
             the_cubes[i].transform.localPosition =
                 new Vector3(the_cubes[i].transform.localPosition.x,
-                           wf[i],
+                          100 * wf[i],
                             the_cubes[i].transform.localPosition.z);
         }
 
