@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637847761166775186
+      ticks: 637848770599719542
     m_Hash: 859974574
   m_LockFileStatus:
     m_FilePath: C:/Users/valla/ProjetVR/ProjetVR/ProjetVR/Packages/packages-lock.json
@@ -13,8 +13,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637847762439921689
-    m_Hash: 230817749
+      ticks: 637848770599724559
+    m_Hash: 584204951
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
