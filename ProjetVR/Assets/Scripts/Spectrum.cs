@@ -9,6 +9,7 @@ public class Spectrum : MonoBehaviour
     // array of game objects
     public GameObject[] the_cubes = new GameObject[512];
 
+    
     // Start is called before the first frame update
     void Start()
     {

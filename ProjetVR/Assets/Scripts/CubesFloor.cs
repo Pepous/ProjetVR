@@ -15,6 +15,7 @@ public class CubesFloor : MonoBehaviour
     public float spawnSpeed = 0;
 
     public List<int> valManhattan = new List<int>();
+    public GameObject cube;
 
     void Start()
     {
