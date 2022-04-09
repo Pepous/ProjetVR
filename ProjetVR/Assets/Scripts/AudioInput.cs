@@ -51,7 +51,7 @@ public class AudioInput : MonoBehaviour
         {
             //Stop the audio
             the_audioSource.Stop();
-            //Ensure audio doesn’t play more than once
+             //Ensure audio doesn’t play more than once
             toggleChange = false;
         }
         // get the time domain waveforce
@@ -60,7 +60,14 @@ public class AudioInput : MonoBehaviour
         the_audioSource.GetSpectrumData(the_spectrum, 0, FFTWindow.Hanning);
         
     }
-
+    public void Play()
+    {
+        the_audioSource.Play();
+    }
+    public void Pause()
+    {
+        the_audioSource.Pause();
+    }
     void OnGUI()
     {
         //Switch this toggle to activate and deactivate the parent GameObject
