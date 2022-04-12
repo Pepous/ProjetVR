@@ -12,11 +12,11 @@ public class Spectrum : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
 
         for (int i = 0; i < the_cubes.Length; i++)
         {
-            
+
             // instantiate prefab game object
             GameObject go = Instantiate(the_pfCube);
             // scale it to be 2x wider
@@ -38,7 +38,7 @@ public class Spectrum : MonoBehaviour
         // local reference to the spectrum
         float[] spectrum = AudioInput.the_spectrum;
 
-        for(int i = 0; i < the_cubes.Length; i++)
+        for (int i = 0; i < the_cubes.Length; i++)
         {
             float spct = 600 * Mathf.Sqrt(spectrum[i]);
             the_cubes[i].transform.localScale =

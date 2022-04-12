@@ -51,14 +51,14 @@ public class AudioInput : MonoBehaviour
         {
             //Stop the audio
             the_audioSource.Stop();
-             //Ensure audio doesn’t play more than once
+            //Ensure audio doesn’t play more than once
             toggleChange = false;
         }
         // get the time domain waveforce
         the_audioSource.GetOutputData(the_waveform, 0);
         // get the magnitude
         the_audioSource.GetSpectrumData(the_spectrum, 0, FFTWindow.Hanning);
-        
+
     }
     public void Play()
     {
