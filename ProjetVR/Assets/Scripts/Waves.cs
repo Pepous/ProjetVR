@@ -6,11 +6,11 @@ public class Waves : MonoBehaviour
 {
     public GameObject cube;
 
-    private float angle = 0;
+    private float angle;
 
-    public int rows = 32;
-    public int cols = 32;
-    public float speed = (float)0.08;
+    public int rows;
+    public int cols;
+    public float speed;
 
     private List<GameObject> goInt = new List<GameObject>();
 
@@ -23,7 +23,7 @@ public class Waves : MonoBehaviour
             {
                 var pos = new Vector3(x - cols / 2, 0, z - rows / 2);
                 var go = Instantiate(cube, pos, Quaternion.identity);
-                go.GetComponent<Renderer>().material.SetColor("_BaseColor", new Color(.5f, .5f, 1));
+                
 
                 goInt.Add(go);
             }
