@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/Scene1_Aurora.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
